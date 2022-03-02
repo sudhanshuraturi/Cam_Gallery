@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./gallery.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">BACK</div>
+    <div class="gallery-cont"></div>
+
+    <script src="./db.js"></script>
+    <script src="./gallery.js"></script>
+    <script>
+        let backElem = document.querySelector(".back");
+        backElem.addEventListener("click", (e) => {
+            location.assign("./index.html");
+        })
+    </script>
+</body>
+</html>
