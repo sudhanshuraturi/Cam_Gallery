@@ -16,7 +16,7 @@ setTimeout(() => {
 
                 mediaElem.innerHTML = `
                 <div class="media">
-                    <video autoplay loop src="${url}"></video>
+                    <video autoplay loop muted src="${url}"></video>
                 </div>
                 <div class="delete action-btn">DELETE</div>
                 <div class="download action-btn">DOWNLOAD</div>
